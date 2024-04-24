@@ -1,173 +1,111 @@
+*, *::before, *::after {
+	box-sizing: border-box;
 
-
-.fendi-website{
-
-	font-family: 'rubik', Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
 	background-color: rgba(255, 204, 0, 1);
-	width: 1440px;
-	height: 832px;
-	margin-top: -70px;
-}
+	font-family: 'rubik', Arial, Helvetica, sans-serif;
+  }
 
-.fendi-intro-title-1, .fendi-intro-title-2 {
-	
-	font-size: 100px;
+  .welcome-text{
+
+	display: none;
+
+  }
+
+
+  .page-wrapper {
+	height: 100%;
+	display: flex;
+	justify-content: center; 
+	align-items: center; 
+  }
+
+  .title-wrapper-1 {
+	position: absolute;
+	top: 20px; /* Adjust top position as needed */
+	left: 50%; /* Center horizontally */
+	transform: translateX(-50%); /* Center horizontally */
+  }
+
+  .title-wrapper-2 {
+
+	position: absolute;
+	top: 20px; /* Adjust top position as needed */
+	left: 50%; /* Center horizontally */
+	transform: translateX(-50%); /* Center horizontally */
+  }
+
+  .fendi-intro-title-1{
+
+	font-size: 80px;
+	margin-left: -470px;
+	margin-top: 0px;
 	margin-bottom: 0px;
-	width: 400px;
-	display: inline-block;
-	padding-left: 70px;
-	font-weight: 500;
+  }
 
-}
+  .fendi-intro-title-2{
 
-.fendi-intro-title-2 {
+	font-size: 80px;
+	width: 490px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 630px;
+  }
+  
+  .container {
+	width: 1400px;
+	max-width: 80%;
+	background-color: white;
+	padding: 10px;
+	position: relative;
+	margin-top: 140px;
+	border: 7px solid black;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
 
-	width: 601px;
-	padding-left: 280px;
-}
+  }
 
-.fendi-intro-elements{
-
-
-	.rectangle {
-		width: 1271px; 
-		height: 650px; 
-		background-color: white;
-		border: 7px solid black; 
-		margin-left: 71px;
-		
-	}
-
-	.rectangle-2{
-
-		width: 1354px;
-		height: 580px;
-		background-color: white;
-		border: 7px solid black;
-		margin-left: 30px;
-		margin-top: -630px;
-	}
-
-	.vertical-line-1 {
-		position: absolute;
-		width: 7px; 
-		height: 580px; 
-		background-color: black; 
-		left: 50%; 
-		top: 20px; 
-		transform: translateX(-50%); 
-		margin-left: -637.5px;
-		margin-top: 152.5px;
-	}
-
-	.vertical-line-2 {
-
-		position: absolute;
-		width: 7px; 
-		height: 580px;
-		background-color: black; 
-		left: 50%; 
-		top: 20px; 
-		transform: translateX(-50%); 
-		margin-left: 640.5px;
-		margin-top: 152.5px;
+  .Fendi-page-logo {
+	position: absolute; 
+	z-index: 1; 
+	margin-bottom: 710px;
+	margin-left: -200px;
+  }
+  
 
 
-	}
+  .btn-grid {
+	display: grid;
+	grid-template-columns: repeat(2, auto);
+	gap: 10px;
+	margin-top: 20px;
+	order: 2;
+	align-content: center;
+  }
+  
+  .btn {
+	background-color: rgba(255, 204, 0, 1);
+	border: 7px solid black;
+	padding: 5px 10px;
+	color: white;
+	outline: none;
+	height: 128px;
+	width: 439px;
+  }
+  
+  .btn:hover {
+	border-color: black;
+  }
+  
 
-	.vertical-line-3 {
-
-		position: absolute;
-		width: 7px; 
-		height: 580px;
-		background-color: black; 
-		left: 50%; 
-		top: 20px; 
-		transform: translateX(-50%); 
-		margin-left: 661.5px;
-		margin-top: 152.5px;
-
-
-	}
-
-	.vertical-line-4 {
-
-		position: absolute;
-		width: 7px; 
-		height: 580px;
-		background-color: black; 
-		left: 50%; 
-		top: 20px; 
-		transform: translateX(-50%); 
-		margin-left: -658.5px;
-		margin-top: 152.5px;
-
-
-	}
-
-	.horizontal-line-1 {
-		position: absolute;
-		width: 1280px; 
-		height: 7px; 
-		background-color: black; 
-		left: 50%; 
-		top: 420px; 
-		transform: translateY(-50%); 
-		margin-left: -640px;
-		margin-top: -268px;
-	}
-
-	.horizontal-line-2 {
-		position: absolute;
-		width: 1280px; 
-		height: 7px; 
-		background-color: black; 
-		left: 50%; 
-		top: 420px; 
-		transform: translateY(-50%); 
-		margin-left: -640px;
-		margin-top: 354px;
-	}
-
-	.Fendi-page-logo{
-
-		position: absolute;
-		margin-top: -100px;
-		width: 100px;
-		height: 80px;
-		margin-left: 490px;
-	}
-
-	.cover-fendi-design {
-
-		position: absolute;
-		padding-left: 100px;
-		margin-top: 67px;
-	}
-
-	.intro-button{
-
-		position: absolute;
-		width: 439px;
-		height: 128px;
-		background-color: rgba(255, 204, 0, 1); 
-		color: black; /* Button text color */
-		padding: 10px 20px; /* Button padding */
-		border: none; /* Remove button border */
-		border-radius: 0px; /* Button border radius */
-		cursor: pointer; /* Add pointer cursor on hover */
-		font-size: 64px; /* Button text size */
-		margin-left: 800px;
-		margin-top: 300px;
-		border: 7px solid black;
-		font-family: 'rubik', Arial, Helvetica, sans-serif;
-		font-weight: 500;
-	}
-	
-	
-
-	
-}
-	
-
-
+  
+ 
