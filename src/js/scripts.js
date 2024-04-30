@@ -236,7 +236,7 @@ const textNodes = [
   },
   {
     id: 10,
-    text: 'Hardware Color (test)',
+    text: 'Hardware Color',
     options: [
       {
         text: 'Gold testing',
@@ -257,7 +257,7 @@ const textNodes = [
   },
   {
     id: 11,
-    text: 'Hardware Color (Test 2)',
+    text: 'Hardware Color',
     options: [
       {
         text: 'Gold',
@@ -341,7 +341,7 @@ const textNodes = [
   },
   {
     id: 15,
-    text: 'Hardware Color (Test 3)',
+    text: 'Hardware Color',
     options: [
       {
         text: 'Gold',
@@ -425,7 +425,7 @@ const textNodes = [
   },
   {
     id: 19,
-    text: 'Final Touches (test 4)',
+    text: 'Final Touches',
     options: [
       {
         text: 'Polka Dot',
@@ -468,7 +468,7 @@ const textNodes = [
   },
   {
     id: 21,
-    text: 'Final Touches (test 4)',
+    text: 'Final Touches',
     options: [
       {
         text: 'Polka Dot',
@@ -854,15 +854,11 @@ const textNodes = [
     text: 'Done',
     options: [
       {
-        text: 'Start Over last one',
-        nextText: -1,
-        nextImage: "images/red-brown-gold.png"
-      },
-      {
-        text: 'Download PDF',
+        text: 'Start Over',
         nextText: -1,
         nextImage: "images/red-brown-gold.png"
       }
+      
 
       
     
@@ -876,12 +872,8 @@ const textNodes = [
         text: 'Start Over',
         nextText: -1,
         nextImage: "images/red-brown-gold.png"
-      },
-      {
-        text: 'Download PDF',
-        nextText: -1,
-        nextImage: "images/red-brown-gold.png"
       }
+      
     
     ]
   },
@@ -893,12 +885,8 @@ const textNodes = [
         text: 'Start Over',
         nextText: -1,
         nextImage: "images/red-brown-gold.png"
-      },
-      {
-        text: 'Download PDF',
-        nextText: -1,
-        nextImage: "images/red-brown-gold.png"
       }
+     
     
     ]
   },
@@ -910,12 +898,8 @@ const textNodes = [
         text: 'Start Over',
         nextText: -1,
         nextImage: "images/red-brown-gold.png"
-      },
-      {
-        text: 'Download PDF',
-        nextText: -1,
-        nextImage: "images/red-brown-gold.png"
       }
+      
     
     ]
   },
@@ -927,12 +911,8 @@ const textNodes = [
         text: 'Start Over',
         nextText: -1,
         nextImage: "images/red-brown-gold.png"
-      },
-      {
-        text: 'Download PDF',
-        nextText: -1,
-        nextImage: "images/red-brown-gold.png"
       }
+      
     
     ]
   },
@@ -944,14 +924,7 @@ const textNodes = [
         text: 'Start Over',
         nextText: -1,
         nextImage: "images/red-brown-gold.png"
-      },
-      {
-        text: 'Download PDF',
-        nextText: -1,
-        nextImage: "images/red-brown-gold.png"
-      
       }
-    
     ]
   },
   {
@@ -962,12 +935,8 @@ const textNodes = [
         text: 'Start Over',
         nextText: -1,
         nextImage: "images/red-brown-gold.png"
-      },
-      {
-        text: 'Download PDF',
-        nextText: -1,
-        nextImage: "images/red-brown-gold.png"
       }
+      
     
     ]
   },
@@ -979,12 +948,8 @@ const textNodes = [
         text: 'Start Over',
         nextText: -1,
         nextImage: "images/red-brown-gold.png"
-      },
-      {
-        text: 'Download PDF',
-        nextText: -1,
-        nextImage: "images/red-brown-gold.png"
       }
+      
     
     ]
   },
@@ -996,12 +961,8 @@ const textNodes = [
         text: 'Start Over',
         nextText: -1,
         nextImage: "images/red-brown-gold.png"
-      },
-      {
-        text: 'Download PDF',
-        nextText: -1,
-        nextImage: "images/red-brown-gold.png"
       }
+      
     
     ]
   },
@@ -1013,12 +974,8 @@ const textNodes = [
         text: 'Start Over',
         nextText: -1,
         nextImage: "images/red-brown-gold.png"
-      },
-      {
-        text: 'Download PDF',
-        nextText: -1,
-        nextImage: "images/red-brown-gold.png"
       }
+     
     
     ]
   },
@@ -1030,12 +987,8 @@ const textNodes = [
         text: 'Start Over',
         nextText: -1,
         nextImage: "images/red-brown-gold.png"
-      },
-      {
-        text: 'Download PDF',
-        nextText: -1,
-        nextImage: "images/red-brown-gold.png"
       }
+      
     
     ]
   },
@@ -1047,12 +1000,8 @@ const textNodes = [
         text: 'Start Over',
         nextText: -1,
         nextImage: "images/red-brown-gold.png"
-      },
-      {
-        text: 'Download PDF',
-        nextText: -1,
-        nextImage: "images/red-brown-gold.png"
       }
+     
     
     ]
   },
@@ -1064,12 +1013,8 @@ const textNodes = [
         text: 'Start Over',
         nextText: -1,
         nextImage: "images/red-brown-gold.png"
-      },
-      {
-        text: 'Download PDF',
-        nextText: -1,
-        nextImage: "images/red-brown-gold.png"
       }
+      
     
     ]
   },
@@ -1081,12 +1026,8 @@ const textNodes = [
         text: 'Start Over',
         nextText: -1,
         nextImage: "images/red-brown-gold.png"
-      },
-      {
-        text: 'Download PDF',
-        nextText: -1,
-        nextImage: "images/red-brown-gold.png"
       }
+      
     
     ]
   },
@@ -1098,12 +1039,8 @@ const textNodes = [
         text: 'Start Over',
         nextText: -1,
         nextImage: "images/red-brown-gold.png"
-      },
-      {
-        text: 'Download PDF',
-        nextText: -1,
-        nextImage: "images/red-brown-gold.png"
       }
+      
     
     ]
   },
@@ -1115,12 +1052,8 @@ const textNodes = [
         text: 'Start Over',
         nextText: -1,
         nextImage: "images/red-brown-gold.png"
-      },
-      {
-        text: 'Download PDF',
-        nextText: -1,
-        nextImage: "images/red-brown-gold.png"
       }
+      
     
     ]
   },
@@ -1132,12 +1065,8 @@ const textNodes = [
         text: 'Start Over',
         nextText: -1,
         nextImage: "images/red-brown-gold.png"
-      },
-      {
-        text: 'Download PDF',
-        nextText: -1,
-        nextImage: "images/red-brown-gold.png"
       }
+      
     
     ]
   },
@@ -1149,12 +1078,8 @@ const textNodes = [
         text: 'Start Over',
         nextText: -1,
         nextImage: "images/red-brown-gold.png"
-      },
-      {
-        text: 'Download PDF',
-        nextText: -1,
-        nextImage: "images/red-brown-gold.png"
       }
+     
     
     ]
   },
@@ -1166,12 +1091,8 @@ const textNodes = [
         text: 'Start Over',
         nextText: -1,
         nextImage: "images/red-brown-gold.png"
-      },
-      {
-        text: 'Download PDF',
-        nextText: -1,
-        nextImage: "images/red-brown-gold.png"
       }
+      
     
     ]
   },
@@ -1183,12 +1104,8 @@ const textNodes = [
         text: 'Start Over',
         nextText: -1,
         nextImage: "images/red-brown-gold.png"
-      },
-      {
-        text: 'Download PDF',
-        nextText: -1,
-        nextImage: "images/red-brown-gold.png"
       }
+      
     
     ]
   },
@@ -1200,13 +1117,8 @@ const textNodes = [
         text: 'Start Over',
         nextText: -1,
         nextImage: "images/red-brown-gold.png"
-      },
-      {
-        text: 'Download PDF',
-        nextText: -1,
-        nextImage: "images/red-brown-gold.png"
       }
-    
+      
     ]
   },
   {
@@ -1217,12 +1129,8 @@ const textNodes = [
         text: 'Start Over',
         nextText: -1,
         nextImage: "images/red-brown-gold.png"
-      },
-      {
-        text: 'Download PDF',
-        nextText: -1,
-        nextImage: "images/red-brown-gold.png"
       }
+      
     
     ]
   },
@@ -1234,12 +1142,8 @@ const textNodes = [
         text: 'Start Over',
         nextText: -1,
         nextImage: "images/red-brown-gold.png"
-      },
-      {
-        text: 'Download PDF',
-        nextText: -1,
-        nextImage: "images/red-brown-gold.png"
       }
+      
     
     ]
   },
@@ -1251,12 +1155,8 @@ const textNodes = [
         text: 'Start Over',
         nextText: -1,
         nextImage: "images/red-brown-gold.png"
-      },
-      {
-        text: 'Download PDF',
-        nextText: -1,
-        nextImage: "images/red-brown-gold.png"
       }
+      
     
     ]
   },
@@ -1268,12 +1168,8 @@ const textNodes = [
         text: 'Start Over',
         nextText: -1,
         nextImage: "images/red-brown-gold.png"
-      },
-      {
-        text: 'Download PDF',
-        nextText: -1,
-        nextImage: "images/red-brown-gold.png"
       }
+      
     
     ]
   },
@@ -1285,12 +1181,8 @@ const textNodes = [
         text: 'Start Over',
         nextText: -1,
         nextImage: "images/red-brown-gold.png"
-      },
-      {
-        text: 'Download PDF',
-        nextText: -1,
-        nextImage: "images/red-brown-gold.png"
       }
+      
     
     ]
   },
@@ -1302,12 +1194,8 @@ const textNodes = [
         text: 'Start Over',
         nextText: -1,
         nextImage: "images/red-brown-gold.png"
-      },
-      {
-        text: 'Download PDF',
-        nextText: -1,
-        nextImage: "images/red-brown-gold.png"
       }
+      
     
     ]
   },
@@ -1319,12 +1207,8 @@ const textNodes = [
         text: 'Start Over',
         nextText: -1,
         nextImage: "images/red-brown-gold.png"
-      },
-      {
-        text: 'Download PDF',
-        nextText: -1,
-        nextImage: "images/red-brown-gold.png"
       }
+      
     
     ]
   },
@@ -1336,12 +1220,8 @@ const textNodes = [
         text: 'Start Over',
         nextText: -1,
         nextImage: "images/red-brown-gold.png"
-      },
-      {
-        text: 'Download PDF',
-        nextText: -1,
-        nextImage: "images/red-brown-gold.png"
       }
+      
     
     ]
   },
@@ -1353,12 +1233,8 @@ const textNodes = [
         text: 'Start Over',
         nextText: -1,
         nextImage: "images/red-brown-gold.png"
-      },
-      {
-        text: 'Download PDF',
-        nextText: -1,
-        nextImage: "images/red-brown-gold.png"
       }
+      
     
     ]
   },
@@ -1370,12 +1246,8 @@ const textNodes = [
         text: 'Start Over',
         nextText: -1,
         nextImage: "images/red-brown-gold.png"
-      },
-      {
-        text: 'Download PDF',
-        nextText: -1,
-        nextImage: "images/red-brown-gold.png"
       }
+      
     
     ]
   },
@@ -1387,12 +1259,8 @@ const textNodes = [
         text: 'Start Over',
         nextText: -1,
         nextImage: "images/red-brown-gold.png"
-      },
-      {
-        text: 'Download PDF',
-        nextText: -1,
-        nextImage: "images/red-brown-gold.png"
       }
+      
     
     ]
   },
@@ -1404,12 +1272,8 @@ const textNodes = [
         text: 'Start Over',
         nextText: -1,
         nextImage: "images/red-brown-gold.png"
-      },
-      {
-        text: 'Download PDF',
-        nextText: -1,
-        nextImage: "images/red-brown-gold.png"
       }
+      
     
     ]
   },
@@ -1421,12 +1285,8 @@ const textNodes = [
         text: 'Start Over',
         nextText: -1,
         nextImage: "images/red-brown-gold.png"
-      },
-      {
-        text: 'Download PDF',
-        nextText: -1,
-        nextImage: "images/red-brown-gold.png"
       }
+      
     
     ]
   },
@@ -1438,12 +1298,8 @@ const textNodes = [
         text: 'Start Over',
         nextText: -1,
         nextImage: "images/red-brown-gold.png"
-      },
-      {
-        text: 'Download PDF',
-        nextText: -1,
-        nextImage: "images/red-brown-gold.png"
       }
+      
     
     ]
   },
@@ -1455,12 +1311,8 @@ const textNodes = [
         text: 'Start Over',
         nextText: -1,
         nextImage: "images/red-brown-gold.png"
-      },
-      {
-        text: 'Download PDF',
-        nextText: -1,
-        nextImage: "images/red-brown-gold.png"
       }
+     
     
     ]
   },
@@ -1472,12 +1324,8 @@ const textNodes = [
         text: 'Start Over',
         nextText: -1,
         nextImage: "images/red-brown-gold.png"
-      },
-      {
-        text: 'Download PDF',
-        nextText: -1,
-        nextImage: "images/red-brown-gold.png"
       }
+      
     
     ]
   },
@@ -1489,12 +1337,8 @@ const textNodes = [
         text: 'Start Over',
         nextText: -1,
         nextImage: "images/red-brown-gold.png"
-      },
-      {
-        text: 'Download PDF',
-        nextText: -1,
-        nextImage: "images/red-brown-gold.png"
       }
+      
     
     ]
   }
